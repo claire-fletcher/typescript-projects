@@ -45,7 +45,7 @@ class Robot {
 
 class Humanoid extends Robot {
 	constructor(name, abilities, catchphrase) {
-		super(name, abilities);
+		super(name, abilities); // this is needed if you need a custom constructor. Otherwise the default one will include super(...args)
 		this.catchphrase = catchphrase;
 	}
 
