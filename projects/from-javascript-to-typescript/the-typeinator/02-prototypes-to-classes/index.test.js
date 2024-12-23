@@ -96,7 +96,7 @@ describe(Humanoid, () => {
 			expect(log).toHaveBeenCalledWith("Greetings. I am The Typeinator.");
 			expect(log).toHaveBeenCalledWith("I am able to refactor.");
 			expect(log).toHaveBeenCalledWith("I am able to transpile.");
-			expect(log).toHaveBeenCalledWith(" > Come with me if you want types. <");
+			expect(log).toHaveBeenCalledWith("> Come with me if you want types. <");
 		});
 	});
 });
