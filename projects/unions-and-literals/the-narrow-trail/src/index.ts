@@ -2,7 +2,6 @@ export function runCommands() {
 	// Declare your variables and runtime logic here! ✨
 
 	let availableResource: "food" | "water" | undefined;
-	let diceRoll: number;
 	let food: number = 5;
 	let water: number = 5;
 
